@@ -1,0 +1,21 @@
+<Project>
+	<PropertyGroup Label="Package Info">
+		<RepositoryUrl>https://github.com/heuristicAL/Fonts.Avalonia.JetbrainsMono</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<Description>Library used to add Fonts to AvaloniaUI Projects.</Description>
+		<PackageTags>c-sharp;xaml;cross-platform;dotnet;dotnetcore;avalonia;avaloniaui;fonts</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<!-- Add Package Icon -->
+<!--	TODO: Add package icon like Fluent Avalonia does-->
+<!--	<PropertyGroup>-->
+<!--		<PackageIcon>FAIcon.png</PackageIcon>-->
+<!--	</PropertyGroup>-->
+
+<!--	<ItemGroup Label="PackageIcon">-->
+<!--		<None Include="$(MSBuildThisFileDirectory)/../Assets/FAIcon.png" Pack="true" Visible="false" PackagePath=""/>-->
+<!--	</ItemGroup>-->
+
+	<Import Project="$(MSBuildThisFileDirectory)/SourceLink.props"/>
+</Project>
