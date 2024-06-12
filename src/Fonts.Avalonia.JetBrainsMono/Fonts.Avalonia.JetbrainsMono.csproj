@@ -3,7 +3,6 @@
 		<PackageId>Fonts.Avalonia.JetbrainsMono</PackageId>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/heuristicAL/Fonts.Avalonia.JetbrainsMono</RepositoryUrl>
-		<PackageLicenseUrl>https://github.com/heuristicAL/Fonts.Avalonia.JetbrainsMono/blob/main/LICENSE</PackageLicenseUrl>
 		<Authors>Alexandre Giard</Authors>
 	</PropertyGroup>
 
@@ -15,6 +14,10 @@
 
     <ItemGroup>
       <PackageReference Include="Avalonia" Version="11.0.10" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Fonts.Avalonia.JetBrainsMono\" />
     </ItemGroup>
 
 </Project>
