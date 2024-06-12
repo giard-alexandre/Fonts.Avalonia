@@ -1,0 +1,24 @@
+name: .NET Publish
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8
+      - name: Build and Pack
+        run: dotnet build Fonts.Avalonia.JetBrainsMono --configuration Release
+      - name: Publish to Nuget
+        run: dotnet nuget push "Fonts.Avalonia.JetBrainsMono/bin/Release/*.nupkg" --api-key ${{secrets.NUGET_KEY}} --source https://api.nuget.org/v3/index.json --skip-duplicate
+      - name: Publish to GitHub Packages
+        run: dotnet nuget push "Fonts.Avalonia.JetBrainsMono/bin/Release/*.nupkg" --api-key ${{secrets.GITHUB_TOKEN}} --source https://nuget.pkg.github.com/Fonts.Avalonia.JetBrainsMono/index.json --skip-duplicate
