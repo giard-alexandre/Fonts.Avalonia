@@ -17,7 +17,7 @@ jobs:
         with:
           dotnet-version: 8
       - name: Build and Pack
-        run: dotnet build src/Fonts.Avalonia.JetBrainsMono --configuration Release
+        run: dotnet pack src/Fonts.Avalonia.JetBrainsMono --configuration Release
       - name: Publish to Nuget
         run: dotnet nuget push "src/Fonts.Avalonia.JetBrainsMono/bin/Release/*.nupkg" --api-key ${{secrets.NUGET_KEY}} --source https://api.nuget.org/v3/index.json --skip-duplicate
       - name: Publish to GitHub Packages

@@ -16,4 +16,4 @@ jobs:
         with:
           dotnet-version: 8
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        run: dotnet build src/Fonts.Avalonia.JetBrainsMono --configuration Release
