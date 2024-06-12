@@ -1,4 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<PackageId>Fonts.Avalonia.JetbrainsMono</PackageId>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/heuristicAL/Fonts.Avalonia.JetbrainsMono</RepositoryUrl>
+		<PackageLicenseUrl>https://github.com/heuristicAL/Fonts.Avalonia.JetbrainsMono/blob/main/LICENSE</PackageLicenseUrl>
+		<Authors>Alexandre Giard</Authors>
+	</PropertyGroup>
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
