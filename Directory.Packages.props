@@ -1,0 +1,10 @@
+<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageVersion Include="Avalonia" Version="11.0" />
+
+    <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
+	</ItemGroup>
+</Project>

@@ -13,11 +13,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Avalonia" Version="11.0.10" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Fonts.Avalonia.JetBrainsMono\" />
+      <PackageReference Include="Avalonia" />
     </ItemGroup>
 
 </Project>
