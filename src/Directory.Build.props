@@ -6,6 +6,7 @@
     <Description>Library used to add Fonts to AvaloniaUI Projects.</Description>
     <PackageTags>c-sharp;xaml;cross-platform;dotnet;dotnetcore;avalonia;avaloniaui;fonts</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Alexandre Giard</Authors>
   </PropertyGroup>
 
   <!-- Add Package Icon -->
