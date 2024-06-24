@@ -9,9 +9,9 @@
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
 	</PropertyGroup>
 
-	<ItemGroup>
+	<!-- <ItemGroup>
 		<PackageReference Include="Microsoft.SourceLink.GitHub"  PrivateAssets="All"/>
-	</ItemGroup>
+	</ItemGroup> -->
 
 	<PropertyGroup Condition="'$(TF_BUILD)' == 'true'">
 		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
