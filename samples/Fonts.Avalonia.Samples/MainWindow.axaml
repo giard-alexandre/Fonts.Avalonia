@@ -2,7 +2,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:samples="clr-namespace:Fonts.Avalonia.Samples"
         xmlns:models="clr-namespace:Fonts.Avalonia.Samples.Models"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="800"
         x:Class="Fonts.Avalonia.Samples.MainWindow"
@@ -93,6 +92,9 @@
                         </TreeViewItem>
                     </TreeView>
                 </StackPanel>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="01234567890"></TextBlock>
             </StackPanel>
             <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                 <DataGrid Name="DataGrid1" CanUserResizeColumns="True" CanUserReorderColumns="True"
