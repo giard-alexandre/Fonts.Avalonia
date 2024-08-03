@@ -1,6 +1,4 @@
-![Logo](/assets/Fonts.Avalonia_Logo.png)
-
-# Avalonia JetBrainsMono Font Collection
+# ![Logo](/assets/Fonts.Avalonia_Logo.png | width=100) Avalonia JetBrainsMono Font Collection
 
 Add JetbrainsMono and all its styles to your Avalonia app.
 
