@@ -10,14 +10,13 @@
   </PropertyGroup>
 
   <!-- Add Package Icon -->
-  <!--	TODO: Add package icon like Fluent Avalonia does-->
-  <!--	<PropertyGroup>-->
-  <!--		<PackageIcon>FAIcon.png</PackageIcon>-->
-  <!--	</PropertyGroup>-->
+  	<PropertyGroup>
+  		<PackageIcon>Fonts.Avalonia_Logo.png</PackageIcon>
+  	</PropertyGroup>
 
-  <!--	<ItemGroup Label="PackageIcon">-->
-  <!--		<None Include="$(MSBuildThisFileDirectory)/../Assets/FAIcon.png" Pack="true" Visible="false" PackagePath=""/>-->
-  <!--	</ItemGroup>-->
+  	<ItemGroup Label="PackageIcon">
+  		<None Include="$(MSBuildThisFileDirectory)/../assets/Fonts.Avalonia_Logo.png" Pack="true" Visible="false" PackagePath=""/>
+  	</ItemGroup>
 
   <!-- Add Package README -->
   <PropertyGroup>

@@ -1,3 +1,5 @@
+using System;
+
 using Avalonia.Media.Fonts;
 
 namespace Fonts.Avalonia.JetbrainsMono;
