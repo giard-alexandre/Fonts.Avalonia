@@ -1,4 +1,4 @@
-# ![Logo](/assets/Fonts.Avalonia_Logo.png | width=100) Avalonia JetBrainsMono Font Collection
+# <img src="/assets/Fonts.Avalonia_Logo.png" width="48"> Avalonia JetBrainsMono Font Collection
 
 Add JetbrainsMono and all its styles to your Avalonia app.
 
@@ -11,10 +11,10 @@ Add JetbrainsMono and all its styles to your Avalonia app.
 
 <details>
   <summary>Default</summary>
-  ![Default Font](/assets/fonts/Default.png)
+  <img src="/assets/fonts/Default.png">
 </details>
 
 <details>
   <summary>Jetbrains Mono</summary>
-  ![Jetbrains Mono](/assets/fonts/JetbrainsMono.png)
+  <img src="/assets/fonts/JetbrainsMono.png">
 </details>
