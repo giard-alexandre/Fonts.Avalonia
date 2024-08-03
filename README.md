@@ -11,10 +11,10 @@ Add JetbrainsMono and all its styles to your Avalonia app.
 
 <details>
   <summary>Default</summary>
-  ![Default Font](https://github.com/heuristicAL/Fonts.Avalonia.JetbrainsMono/blob/main/assets/fonts/Default.png)
+  ![Default Font](https://github.com/heuristicAL/Fonts.Avalonia/blob/main/assets/fonts/Default.png)
 </details>
 
 <details>
   <summary>Jetbrains Mono</summary>
-  ![Jetbrains Mono](https://github.com/heuristicAL/Fonts.Avalonia.JetbrainsMono/blob/main/assets/fonts/Jetbrains%20Mono.png)
+  ![Jetbrains Mono](https://github.com/heuristicAL/Fonts.Avalonia/blob/main/assets/fonts/Jetbrains%20Mono.png)
 </details>

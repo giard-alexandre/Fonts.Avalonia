@@ -1,7 +1,7 @@
 <Project>
   <PropertyGroup Label="Package Info">
-    <RepositoryUrl>https://github.com/heuristicAL/Fonts.Avalonia.JetbrainsMono</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/heuristicAL/Fonts.Avalonia.JetbrainsMono</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/heuristicAL/Fonts.Avalonia</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/heuristicAL/Fonts.Avalonia</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <Description>Library used to add Fonts to AvaloniaUI Projects.</Description>
     <PackageTags>c-sharp;xaml;cross-platform;dotnet;dotnetcore;avalonia;avaloniaui;fonts</PackageTags>
