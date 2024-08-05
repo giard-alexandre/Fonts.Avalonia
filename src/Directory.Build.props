@@ -9,6 +9,12 @@
     <Authors>Alexandre Giard</Authors>
   </PropertyGroup>
 
+  <!--  Add Debug Symbols-->
+  <PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
   <!-- Add Package Icon -->
   	<PropertyGroup>
   		<PackageIcon>Fonts.Avalonia_Logo.png</PackageIcon>
