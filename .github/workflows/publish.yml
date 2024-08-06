@@ -7,18 +7,16 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8
       - name: Build and Pack
-        run: dotnet pack src/Fonts.Avalonia.JetBrainsMono --configuration Release
+        run: dotnet pack --output nuget
       - name: Publish to Nuget
-        run: dotnet nuget push "src/Fonts.Avalonia.JetBrainsMono/bin/Release/*.nupkg" --api-key ${{secrets.NUGET_KEY}} --source https://api.nuget.org/v3/index.json --skip-duplicate
+        run: dotnet nuget push "nuget/*.nupkg" --api-key ${{secrets.NUGET_KEY}} --source https://api.nuget.org/v3/index.json --skip-duplicate
       - name: Publish to GitHub Packages
-        run: dotnet nuget push "src/Fonts.Avalonia.JetBrainsMono/bin/Release/*.nupkg" --api-key ${{secrets.GITHUB_TOKEN}} --source https://nuget.pkg.github.com/Fonts.Avalonia.JetBrainsMono/index.json --skip-duplicate
+        run: dotnet nuget push "nuget/*.nupkg" --api-key ${{secrets.GITHUB_TOKEN}} --source https://nuget.pkg.github.com/Fonts.Avalonia/index.json --skip-duplicate
