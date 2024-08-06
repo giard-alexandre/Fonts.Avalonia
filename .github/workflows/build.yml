@@ -15,7 +15,5 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8
-      -   name: Setup tmate session
-          uses: mxschmitt/action-tmate@v3
       - name: Build with dotnet
         run: dotnet build --configuration Release
