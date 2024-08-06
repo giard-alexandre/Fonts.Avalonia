@@ -20,6 +20,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\Fonts.Avalonia.JetbrainsMono\Fonts.Avalonia.JetbrainsMono.csproj" />
+      <ProjectReference Include="..\..\src\Fonts.Avalonia.JetBrainsMono\Fonts.Avalonia.JetBrainsMono.csproj" />
     </ItemGroup>
 </Project>

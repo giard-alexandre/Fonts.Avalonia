@@ -2,7 +2,7 @@
 
 using System;
 
-using Fonts.Avalonia.JetbrainsMono;
+using Fonts.Avalonia.JetBrainsMono;
 
 namespace Fonts.Avalonia.Samples;
 

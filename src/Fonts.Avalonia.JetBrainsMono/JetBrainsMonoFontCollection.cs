@@ -1,10 +1,8 @@
-using System;
-
 using Avalonia.Media.Fonts;
 
-namespace Fonts.Avalonia.JetbrainsMono;
+namespace Fonts.Avalonia.JetBrainsMono;
 
 public class JetBrainsMonoFontCollection : EmbeddedFontCollection {
     public JetBrainsMonoFontCollection() : base(new Uri("fonts:JetBrainsMono", UriKind.Absolute),
-        new Uri("avares://Fonts.Avalonia.JetbrainsMono/Assets", UriKind.Absolute)) { }
+        new Uri("avares://Fonts.Avalonia.JetBrainsMono/Assets", UriKind.Absolute)) { }
 }

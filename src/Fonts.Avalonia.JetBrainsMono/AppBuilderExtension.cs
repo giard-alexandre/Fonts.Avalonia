@@ -1,6 +1,6 @@
 using Avalonia;
 
-namespace Fonts.Avalonia.JetbrainsMono;
+namespace Fonts.Avalonia.JetBrainsMono;
 
 public static class AppBuilderExtension {
     public static AppBuilder WithJetBrainsMonoFont(this AppBuilder appBuilder) {

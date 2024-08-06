@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fonts.Avalonia.JetbrainsMono", "src/Fonts.Avalonia.JetbrainsMono/Fonts.Avalonia.JetbrainsMono.csproj", "{ECA6381B-7BBE-44DE-9450-13B5806CDBF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fonts.Avalonia.JetBrainsMono", "src/Fonts.Avalonia.JetBrainsMono/Fonts.Avalonia.JetBrainsMono.csproj", "{ECA6381B-7BBE-44DE-9450-13B5806CDBF9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5A5844C6-51EB-4366-923C-AC50DE7A300F}"
 EndProject

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <PackageId>Fonts.Avalonia.JetbrainsMono</PackageId>
+    <PackageId>Fonts.Avalonia.JetBrainsMono</PackageId>
   </PropertyGroup>
 
   <PropertyGroup>
