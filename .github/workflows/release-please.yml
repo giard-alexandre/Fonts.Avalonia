@@ -13,6 +13,8 @@ jobs:
   release-please:
     name: ✨ Release Please
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # releases, tags
     outputs:
       created: ${{ steps.release.outputs.release_created }}
       version_major: ${{ steps.release.outputs.version_major }}
