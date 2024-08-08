@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.1.0...v0.2.0) (2024-08-08)
+
+
+### 🚀 Features
+
+* add checkout to tagging ([2dd61a9](https://github.com/heuristicAL/Fonts.Avalonia/commit/2dd61a9188cee0567b611a70022b32f4523c1e07))
+
+
+### 🐛 Bug Fixes
+
+* test versions ([616d98d](https://github.com/heuristicAL/Fonts.Avalonia/commit/616d98dc855eb26b79201f0665ae6cdb93454e2c))
+
 ## [0.1.0](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.0.5...v0.1.0) (2024-08-08)
 
 
