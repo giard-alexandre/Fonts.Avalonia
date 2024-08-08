@@ -33,16 +33,16 @@ jobs:
       contents: write # releases, tags
     needs:
       - release-please
-    if: ${{ needs.release.outputs.version_major && needs.release.outputs.version_minor && needs.release.outputs.version_patch }}
+    if: ${{ needs.release-please.outputs.version_major && needs.release-please.outputs.version_minor && needs.release-please.outputs.version_patch }}
     env:
-      V_MAJOR: ${{ steps.release.outputs.version_major }}
-      V_MINOR: ${{ steps.release.outputs.version_minor }}
-      V_PATCH: ${{ steps.release.outputs.version_patch }}
+      V_MAJOR: ${{ needs.release-please.outputs.version_major }}
+      V_MINOR: ${{ needs.release-please.outputs.version_minor }}
+      V_PATCH: ${{ needs.release-please.outputs.version_patch }}
     steps:
       - run: |
-          echo "Major version: ${{ steps.release.outputs.version_major }}"
-          echo "Minor version: ${{ steps.release.outputs.version_minor }}"
-          echo "Patch version: ${{ steps.release.outputs.version_patch }}"
+          echo "Major version: ${{ needs.release-please.outputs.version_major }}"
+          echo "Minor version: ${{ needs.release-please.outputs.version_minor }}"
+          echo "Patch version: ${{ needs.release-please.outputs.version_patch }}"
           echo "env Major version: ${{ env.V_MAJOR }}"
           echo "env Minor version: ${{ env.V_MINOR }}"
           echo "env Patch version: ${{ env.V_PATCH }}"
