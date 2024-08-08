@@ -41,7 +41,7 @@ jobs:
       contents: write # releases, tags
     needs:
       - release-please
-    if: ${{ needs.release-please.outputs.version }}
+    if: ${{ needs.release-please.outputs.release_created }}
     env:
       V_MAJOR: ${{ needs.release-please.outputs.major }}
       V_MINOR: ${{ needs.release-please.outputs.minor }}
