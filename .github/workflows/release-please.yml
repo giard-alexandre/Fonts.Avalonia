@@ -45,6 +45,8 @@ jobs:
       V_MINOR: ${{ needs.release-please.outputs.version_minor }}
       V_PATCH: ${{ needs.release-please.outputs.version_patch }}
     steps:
+      - name: 🛒 Checkout
+        uses: actions/checkout@v4
       - run: |
           echo "Major version: ${{ needs.release-please.outputs.version_major }}"
           echo "Minor version: ${{ needs.release-please.outputs.version_minor }}"
