@@ -7,6 +7,12 @@
     <PackageTags>c-sharp;xaml;cross-platform;dotnet;dotnetcore;avalonia;avaloniaui;fonts</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>Alexandre Giard</Authors>
+    <!--x-release-please-start-version-->
+    <Version>0.0.5</Version>
+    <!--x-release-please-end-->
+<!--    TODO: Sign? -->
+<!--    <SignAssembly>True</SignAssembly>-->
+<!--    <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)Fonts.Avalonia.snk</AssemblyOriginatorKeyFile>-->
   </PropertyGroup>
 
   <!--  Add Debug Symbols-->
@@ -29,7 +35,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
-  <ItemGroup Label="PackageIcon">
+  <ItemGroup Label="PackageIcon" Condition="'$(ProjectName.EndsWith(`Test`))' == 'false'">
     <None Include="$(MSBuildThisFileDirectory)/../README.md" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
 
