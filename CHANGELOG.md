@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.3.0...v0.3.1) (2024-08-08)
+
+
+### 🐛 Bug Fixes
+
+* simplify versions ([ba339cf](https://github.com/heuristicAL/Fonts.Avalonia/commit/ba339cf356e735adcb23ef3933b82d3d36687df0))
+
 ## [0.3.0](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.2.0...v0.3.0) (2024-08-08)
 
 
