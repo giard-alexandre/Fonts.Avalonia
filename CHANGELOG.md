@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.3](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.3.2...v0.3.3) (2024-08-08)
+
+
+### 🐛 Bug Fixes
+
+* remove working dir ([efd43e9](https://github.com/heuristicAL/Fonts.Avalonia/commit/efd43e9b6910895896fa7dd12a637dec6e26c974))
+
 ## [0.3.2](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.3.1...v0.3.2) (2024-08-08)
 
 
