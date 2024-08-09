@@ -1,9 +1,10 @@
+name: 🧪 Test
+
 on:
   workflow_call:
 
 jobs:
   test:
-    name: 🧪 Test
     runs-on: ubuntu-latest
 
     steps:
