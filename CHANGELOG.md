@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.6.0...v0.6.1) (2024-08-09)
+
+
+### 🐛 Bug Fixes
+
+* hopefully fix symbols ([18600bb](https://github.com/heuristicAL/Fonts.Avalonia/commit/18600bbeec1ccb44a1152e015bae21fc37f18329))
+
 ## [0.6.0](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.5.0...v0.6.0) (2024-08-09)
 
 
