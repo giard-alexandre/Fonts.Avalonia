@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.4.0...v0.5.0) (2024-08-09)
+
+
+### 🚀 Features
+
+* split build + test ([886b1b4](https://github.com/heuristicAL/Fonts.Avalonia/commit/886b1b465a9046fe001e3bce4482fd5a0041abb1))
+
 ## [0.4.0](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.3.3...v0.4.0) (2024-08-09)
 
 
