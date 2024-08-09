@@ -69,6 +69,7 @@ jobs:
         run: >
           dotnet pack
           --configuration Release
+          --output nuget
       - name: 🚀 Push to Nuget
         run: >
           dotnet nuget push
