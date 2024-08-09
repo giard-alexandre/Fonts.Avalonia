@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.0](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.3.3...v0.4.0) (2024-08-09)
+
+
+### 🚀 Features
+
+* run release after build ([b511516](https://github.com/heuristicAL/Fonts.Avalonia/commit/b51151665f524b42f43cc91b418b52321e523c45))
+
+
+### 🐛 Bug Fixes
+
+* try name change ([ed220f6](https://github.com/heuristicAL/Fonts.Avalonia/commit/ed220f67143a9f8924257d67e4ebb9da05908734))
+
 ## [0.3.3](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.3.2...v0.3.3) (2024-08-08)
 
 
