@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.6.0](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.5.0...v0.6.0) (2024-08-09)
+
+
+### 🚀 Features
+
+* split workflows ([3dd7158](https://github.com/heuristicAL/Fonts.Avalonia/commit/3dd7158a071041955e62a4b84ecd0e05f7ae5a44))
+
+
+### 🐛 Bug Fixes
+
+* actually fix build name ([fb5230e](https://github.com/heuristicAL/Fonts.Avalonia/commit/fb5230ef937783c8e1092a9a9319313b0c4e2e76))
+* AKTUALLY fix name ([ec4f696](https://github.com/heuristicAL/Fonts.Avalonia/commit/ec4f69666a4b098f9b57f27acd2cd7db3ddf9ba1))
+* build name ([4612c3c](https://github.com/heuristicAL/Fonts.Avalonia/commit/4612c3c435aa6f4494d6c13d8e367bbe622a9558))
+* pack command ([fa85983](https://github.com/heuristicAL/Fonts.Avalonia/commit/fa85983be510e76be4cc062be9d5cd4b81ca46fa))
+
 ## [0.5.0](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.4.0...v0.5.0) (2024-08-09)
 
 
