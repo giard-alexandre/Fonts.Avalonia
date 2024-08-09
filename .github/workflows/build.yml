@@ -15,5 +15,7 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8
-      - name: Build with dotnet
+      - name: 🔨 Build
         run: dotnet build --configuration Release
+      - name: 🧪 Test
+        run: dotnet test

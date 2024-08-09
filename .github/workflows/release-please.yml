@@ -1,15 +1,16 @@
 name: 📞 Release Please
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: [ build ]
+    types: [ completed ]
+    branches: [ main ]
 
 jobs:
-  # Creates Release PRs then, once merged, the same job will:
+  # Creates Release PRs ONLY on initial run. Then, once the created PR is merged, the same job will:
   # - Tag the full version (hence the following version tag job for short tag names)
   # - Create the release for this version
-  # -
+  # -Output the new version number to the rest of the workflow
   release-please:
     name: ✨ Release Please
     runs-on: ubuntu-latest
