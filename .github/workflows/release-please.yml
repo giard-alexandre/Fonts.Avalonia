@@ -2,7 +2,7 @@ name: 🚀 Release
 
 on:
   workflow_run:
-    workflows: [ "🔨Build + 🧪Test" ]
+    workflows: [ Build ]
     types: [ completed ]
     branches: [ main ]
 
