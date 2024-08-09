@@ -2,7 +2,7 @@ name: 📞 Release Please
 
 on:
   workflow_run:
-    workflows: [ build ]
+    workflows: [ Build ]
     types: [ completed ]
     branches: [ main ]
 
