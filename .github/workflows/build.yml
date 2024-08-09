@@ -8,27 +8,11 @@ on:
 
 jobs:
   build:
-    name: 🔨 Build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Setup .NET Core
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: 8
-      - name: build
-        run: dotnet build --configuration Release
+    name: 🏗 Build
+    uses: ./.github/workflows/call-build.yml
 
   test:
     name: 🧪 Test
-    runs-on: ubuntu-latest
     needs:
       - build
-    steps:
-      - uses: actions/checkout@v4
-      - name: Setup .NET Core
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: 8
-      - name: test
-        run: dotnet test
+    uses: ./.github/workflows/call-test.yml
