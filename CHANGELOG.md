@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.2](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.6.1...v0.6.2) (2024-08-09)
+
+
+### 🐛 Bug Fixes
+
+* remove old frameworks ([af248d4](https://github.com/heuristicAL/Fonts.Avalonia/commit/af248d4c9890e8936446e44ca9f7a069c43ee9df))
+
 ## [0.6.1](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.6.0...v0.6.1) (2024-08-09)
 
 
