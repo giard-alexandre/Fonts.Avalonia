@@ -13,6 +13,8 @@ Easily add a multitude of fonts to your Avalonia app.
 |:----------------|---------------------:|
 | Jetbrains Mono  |                 Test |
 
+> More to come!
+
 # Font Comparisons
 
 <details>
