@@ -10,25 +10,31 @@
     <!--x-release-please-start-version-->
     <Version>0.6.2</Version>
     <!--x-release-please-end-->
-<!--    TODO: Sign? -->
-<!--    <SignAssembly>True</SignAssembly>-->
-<!--    <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)Fonts.Avalonia.snk</AssemblyOriginatorKeyFile>-->
+    <!--    TODO: Sign? -->
+    <!--    <SignAssembly>True</SignAssembly>-->
+    <!--    <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)Fonts.Avalonia.snk</AssemblyOriginatorKeyFile>-->
   </PropertyGroup>
 
   <!--  Add Debug Symbols-->
   <PropertyGroup>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <!-- Deterministic Builds when on CI -->
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
   </PropertyGroup>
 
   <!-- Add Package Icon -->
-  	<PropertyGroup>
-  		<PackageIcon>Fonts.Avalonia_Logo.png</PackageIcon>
-  	</PropertyGroup>
+  <PropertyGroup>
+    <PackageIcon>Fonts.Avalonia_Logo.png</PackageIcon>
+  </PropertyGroup>
 
-  	<ItemGroup Label="PackageIcon">
-  		<None Include="$(MSBuildThisFileDirectory)/../assets/Fonts.Avalonia_Logo.png" Pack="true" Visible="false" PackagePath=""/>
-  	</ItemGroup>
+  <ItemGroup Label="PackageIcon">
+    <None Include="$(MSBuildThisFileDirectory)/../assets/Fonts.Avalonia_Logo.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
 
   <!-- Add Package README -->
   <PropertyGroup>
@@ -38,6 +44,4 @@
   <ItemGroup Label="PackageIcon" Condition="'$(ProjectName.EndsWith(`Test`))' == 'false'">
     <None Include="$(MSBuildThisFileDirectory)/../README.md" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
-
-  <Import Project="$(MSBuildThisFileDirectory)/SourceLink.props" />
 </Project>
