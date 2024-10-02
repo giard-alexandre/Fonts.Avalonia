@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.6.2...v0.7.0) (2024-10-02)
+
+
+### 🚀 Features
+
+* readme ([59d9665](https://github.com/giard-alexandre/Fonts.Avalonia/commit/59d966570fc3c8206a7e48a3403842577a4d8f10))
+
 ## [0.6.2](https://github.com/heuristicAL/Fonts.Avalonia/compare/v0.6.1...v0.6.2) (2024-08-09)
 
 
