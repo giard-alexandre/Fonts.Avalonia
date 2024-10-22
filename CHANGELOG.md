@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.8.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.7.0...v0.8.0) (2024-10-22)
+
+
+### 🚀 Features
+
+* add Lato ([a954be9](https://github.com/giard-alexandre/Fonts.Avalonia/commit/a954be99a082e563fb37d74379a0dbd32f821661))
+* add Lato font ([6e69fcd](https://github.com/giard-alexandre/Fonts.Avalonia/commit/6e69fcd59259281e0b74c4e9a753df56655bbaa7))
+* sample to lato ([bda86a3](https://github.com/giard-alexandre/Fonts.Avalonia/commit/bda86a3e376411b985d18cd5bab05c11cae857d2))
+
+
+### 🐛 Bug Fixes
+
+* lato appbuilder function name ([d4315ce](https://github.com/giard-alexandre/Fonts.Avalonia/commit/d4315cecb4763ded9d8474af28394a79226cf212))
+
 ## [0.7.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.6.2...v0.7.0) (2024-10-02)
 
 
