@@ -5,7 +5,8 @@
     <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
     <Application.Resources>
-        <FontFamily x:Key="ContentControlThemeFontFamily">fonts:JetBrainsMono#JetBrains Mono, $Default</FontFamily>
+        <!-- <FontFamily x:Key="ContentControlThemeFontFamily">fonts:JetBrainsMono#JetBrains Mono, $Default</FontFamily> -->
+        <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Lato#Lato, $Default</FontFamily>
     </Application.Resources>
     <Application.Styles>
         <FluentTheme />

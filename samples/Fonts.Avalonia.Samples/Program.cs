@@ -3,6 +3,7 @@
 using System;
 
 using Fonts.Avalonia.JetBrainsMono;
+using Fonts.Avalonia.Lato;
 
 namespace Fonts.Avalonia.Samples;
 
@@ -15,5 +16,5 @@ class Program {
 
     // Avalonia configuration, don't remove; also used by visual designer.
     public static AppBuilder BuildAvaloniaApp() =>
-        AppBuilder.Configure<App>().UsePlatformDetect().WithJetBrainsMonoFont().LogToTrace();
+        AppBuilder.Configure<App>().UsePlatformDetect().WithLatoFont().LogToTrace();
 }
