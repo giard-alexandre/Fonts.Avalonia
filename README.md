@@ -19,10 +19,15 @@ Easily add a multitude of fonts to your Avalonia app.
 
 <details>
   <summary>Default</summary>
-  <img src="/assets/fonts/Default.png">
+  <img src="/assets/fonts/Inter.png">
 </details>
 
 <details>
   <summary>Jetbrains Mono</summary>
   <img src="/assets/fonts/JetbrainsMono.png">
+</details>
+
+<details>
+  <summary>Lato</summary>
+  <img src="/assets/fonts/Lato.png">
 </details>

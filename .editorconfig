@@ -162,29 +162,29 @@ csharp_style_expression_bodied_local_functions = false:silent
 
 # Xaml files
 [*.xaml]
-indent_size = 2
+indent_size = 4
 
 # Xml project files
 [*.{csproj,vcxproj,vcxproj.filters,proj,nativeproj,locproj}]
-indent_size = 2
+indent_size = 4
 
 # Xml build files
 [*.builds]
-indent_size = 2
+indent_size = 4
 
 # Xml files
 [*.{xml,stylecop,resx,ruleset}]
-indent_size = 2
+indent_size = 4
 
 # Xml config files
 [*.{props,targets,config,nuspec}]
-indent_size = 2
+indent_size = 4
 
 [*.json]
 indent_size = 2
 
 [*.yml]
-indent_size = 2
+indent_size = 4
 
 # Shell scripts
 [*.sh]
