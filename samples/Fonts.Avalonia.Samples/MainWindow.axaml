@@ -94,7 +94,7 @@
                 </StackPanel>
             </StackPanel>
             <StackPanel>
-                <TextBlock Text="01234567890"></TextBlock>
+                <TextBlock Text="01234567.123$"></TextBlock>
             </StackPanel>
             <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                 <DataGrid Name="DataGrid1" CanUserResizeColumns="True" CanUserReorderColumns="True"

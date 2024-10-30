@@ -9,7 +9,8 @@
         <!-- <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Lato#Lato, $Default</FontFamily> -->
         <!-- <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Oswald#Oswald, $Default</FontFamily> -->
         <!-- <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Cascadia Code#Cascadia Code, $Default</FontFamily> -->
-        <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Iosevka#Iosevka, $Default</FontFamily>
+        <!-- <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Iosevka#Iosevka, $Default</FontFamily> -->
+        <FontFamily x:Key="ContentControlThemeFontFamily">fonts:FiraSansExtraCondensed, $Default</FontFamily>
     </Application.Resources>
     <Application.Styles>
         <FluentTheme />
