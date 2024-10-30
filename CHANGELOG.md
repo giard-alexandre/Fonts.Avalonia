@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.9.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.8.0...v0.9.0) (2024-10-30)
+
+
+### 🚀 Features
+
+* add cascadiacode ([ad676b3](https://github.com/giard-alexandre/Fonts.Avalonia/commit/ad676b3c8e9baa48868d4e81bd2a356acc95f911))
+* add Iosevka ([d238d21](https://github.com/giard-alexandre/Fonts.Avalonia/commit/d238d21a403e6073a4fc14950d87aa3079c2ab24))
+* add Oswald ([0c8a9ce](https://github.com/giard-alexandre/Fonts.Avalonia/commit/0c8a9ce864d5c585017cd36be0269645c0a5cbc3))
+* cascadia usage ([fb1141b](https://github.com/giard-alexandre/Fonts.Avalonia/commit/fb1141b6f01b1d9f4b67dc6d1f00e7c71ea167b3))
+* Iosevka demo ([5b38b5d](https://github.com/giard-alexandre/Fonts.Avalonia/commit/5b38b5dcfe63b75a8bccb566677436fadde53013))
+
+
+### 🐛 Bug Fixes
+
+* oswald file name ([4a43a05](https://github.com/giard-alexandre/Fonts.Avalonia/commit/4a43a05aadb8ccf7107326b5634a3a0d870e0482))
+
 ## [0.8.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.7.0...v0.8.0) (2024-10-22)
 
 
