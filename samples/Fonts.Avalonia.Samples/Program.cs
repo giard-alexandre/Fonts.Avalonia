@@ -3,6 +3,7 @@
 using System;
 
 using Fonts.Avalonia.CascadiaCode;
+using Fonts.Avalonia.FiraSansExtraCondensed;
 using Fonts.Avalonia.Iosevka;
 using Fonts.Avalonia.JetBrainsMono;
 using Fonts.Avalonia.Lato;
@@ -19,5 +20,5 @@ class Program {
 
     // Avalonia configuration, don't remove; also used by visual designer.
     public static AppBuilder BuildAvaloniaApp() =>
-        AppBuilder.Configure<App>().UsePlatformDetect().WithIosevkaFont().LogToTrace();
+        AppBuilder.Configure<App>().UsePlatformDetect().WithFiraSansExtraCondensedFont().LogToTrace();
 }
