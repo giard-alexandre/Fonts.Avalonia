@@ -6,7 +6,10 @@
 
     <Application.Resources>
         <!-- <FontFamily x:Key="ContentControlThemeFontFamily">fonts:JetBrainsMono#JetBrains Mono, $Default</FontFamily> -->
-        <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Lato#Lato, $Default</FontFamily>
+        <!-- <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Lato#Lato, $Default</FontFamily> -->
+        <!-- <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Oswald#Oswald, $Default</FontFamily> -->
+        <!-- <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Cascadia Code#Cascadia Code, $Default</FontFamily> -->
+        <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Iosevka#Iosevka, $Default</FontFamily>
     </Application.Resources>
     <Application.Styles>
         <FluentTheme />

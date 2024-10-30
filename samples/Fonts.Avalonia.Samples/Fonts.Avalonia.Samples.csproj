@@ -20,7 +20,10 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\src\Fonts.Avalonia.CascadiaCode\Fonts.Avalonia.CascadiaCode.csproj" />
+      <ProjectReference Include="..\..\src\Fonts.Avalonia.Iosevka\Fonts.Avalonia.Iosevka.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.JetBrainsMono\Fonts.Avalonia.JetBrainsMono.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.Lato\Fonts.Avalonia.Lato.csproj" />
+      <ProjectReference Include="..\..\src\Fonts.Avalonia.Oswald\Fonts.Avalonia.Oswald.csproj" />
     </ItemGroup>
 </Project>
