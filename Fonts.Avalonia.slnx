@@ -1,0 +1,22 @@
+﻿<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples\Fonts.Avalonia.Samples\Fonts.Avalonia.Samples.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="src\Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="LICENSE" />
+    <File Path="nuget.config" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Fonts.Avalonia.JetBrainsMono/Fonts.Avalonia.JetBrainsMono.csproj" Type="Classic C#" />
+    <Project Path="src\Fonts.Avalonia.CascadiaCode\Fonts.Avalonia.CascadiaCode.csproj" Type="Classic C#" />
+    <Project Path="src\Fonts.Avalonia.FiraSansExtraCondensed\Fonts.Avalonia.FiraSansExtraCondensed.csproj" Type="Classic C#" />
+    <Project Path="src\Fonts.Avalonia.Iosevka\Fonts.Avalonia.Iosevka.csproj" Type="Classic C#" />
+    <Project Path="src\Fonts.Avalonia.Lato\Fonts.Avalonia.Lato.csproj" Type="Classic C#" />
+    <Project Path="src\Fonts.Avalonia.Oswald\Fonts.Avalonia.Oswald.csproj" Type="Classic C#" />
+  </Folder>
+</Solution>
