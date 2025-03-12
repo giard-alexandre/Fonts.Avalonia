@@ -8,6 +8,7 @@ using Fonts.Avalonia.Iosevka;
 using Fonts.Avalonia.JetBrainsMono;
 using Fonts.Avalonia.Lato;
 using Fonts.Avalonia.Oswald;
+using Fonts.Avalonia.RobotoCondensed;
 
 namespace Fonts.Avalonia.Samples;
 
@@ -28,5 +29,6 @@ class Program {
             .WithJetBrainsMonoFont()
             .WithLatoFont()
             .WithOswaldFont()
+            .WithRobotoCondensedFont()
             .LogToTrace();
 }

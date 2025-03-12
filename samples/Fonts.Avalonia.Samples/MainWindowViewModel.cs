@@ -12,7 +12,8 @@ public class MainWindowViewModel : ReactiveObject {
         new("Iosevka", "fonts:Iosevka#Iosevka, $Default"),
         new("JetbrainsMono", "fonts:JetBrainsMono#JetBrains Mono, $Default"),
         new("Lato", "fonts:Lato#Lato, $Default"),
-        new("Oswald", "fonts:Oswald#Oswald, $Default")
+        new("Oswald", "fonts:Oswald#Oswald, $Default"),
+        new("Roboto Condensed", "fonts:RobotoCondensed"),
     ];
 
     private FontInfo _selectedFont;

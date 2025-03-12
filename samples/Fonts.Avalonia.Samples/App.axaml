@@ -6,7 +6,7 @@
     <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
     <Application.Resources>
-        <FontFamily x:Key="ContentControlThemeFontFamily" >fonts:Inter#Inter, $Default</FontFamily>
+        <FontFamily x:Key="ContentControlThemeFontFamily">fonts:Inter#Inter, $Default</FontFamily>
         <system:Double x:Key="ControlContentThemeFontSize">14</system:Double>
     </Application.Resources>
     <Application.Styles>
