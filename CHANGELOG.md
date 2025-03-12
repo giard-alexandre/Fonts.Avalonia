@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.11.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.10.0...v0.11.0) (2025-03-12)
+
+
+### 🚀 Features
+
+* add roboto condensed ([e9fcfaf](https://github.com/giard-alexandre/Fonts.Avalonia/commit/e9fcfafa9066d283a5eec4350a7e5713c93790df))
+
 ## [0.10.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.9.0...v0.10.0) (2025-03-12)
 
 
