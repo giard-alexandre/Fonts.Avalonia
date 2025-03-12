@@ -20,5 +20,13 @@ class Program {
 
     // Avalonia configuration, don't remove; also used by visual designer.
     public static AppBuilder BuildAvaloniaApp() =>
-        AppBuilder.Configure<App>().UsePlatformDetect().WithFiraSansExtraCondensedFont().LogToTrace();
+        AppBuilder.Configure<App>().UsePlatformDetect()
+            .WithInterFont()
+            .WithCascadiaCodeFont()
+            .WithFiraSansExtraCondensedFont()
+            .WithIosevkaFont()
+            .WithJetBrainsMonoFont()
+            .WithLatoFont()
+            .WithOswaldFont()
+            .LogToTrace();
 }
