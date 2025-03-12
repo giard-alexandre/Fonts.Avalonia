@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.10.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.9.0...v0.10.0) (2025-03-12)
+
+
+### 🚀 Features
+
+* add FiraSansExtraCondensed ([6a4a827](https://github.com/giard-alexandre/Fonts.Avalonia/commit/6a4a82793260e9ee02ae7ec9f365a551ddd78629))
+* add selectable font sample ([b8de9a5](https://github.com/giard-alexandre/Fonts.Avalonia/commit/b8de9a5f7653837ef4d27e9625c2a3da4d9d0831))
+* add selectable font sample ([972b73d](https://github.com/giard-alexandre/Fonts.Avalonia/commit/972b73d2eaf25b28ce16a24f99a01dce3aa91713))
+
+
+### 🐛 Bug Fixes
+
+* fira sans ([fae2540](https://github.com/giard-alexandre/Fonts.Avalonia/commit/fae25401173505147edb04f51144f2fd1cad3546))
+
+
+### 📦️ Build System, Dependencies
+
+* bump framework ([ef2ffeb](https://github.com/giard-alexandre/Fonts.Avalonia/commit/ef2ffeb3e3dd4a016e8ddd788c12aa6f78b53a4d))
+* update dotnet 9 ([64bedbb](https://github.com/giard-alexandre/Fonts.Avalonia/commit/64bedbbfb50ce9df3f1a5e44d3a127a7d1b43168))
+
 ## [0.9.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.8.0...v0.9.0) (2024-10-30)
 
 
