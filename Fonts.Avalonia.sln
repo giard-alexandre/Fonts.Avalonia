@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fonts.Avalonia.Oswald", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fonts.Avalonia.Iosevka", "src\Fonts.Avalonia.Iosevka\Fonts.Avalonia.Iosevka.csproj", "{690538CC-53C2-4D47-B827-E7313AF55F9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fonts.Avalonia.FiraSansExtraCondensed", "src\Fonts.Avalonia.FiraSansExtraCondensed\Fonts.Avalonia.FiraSansExtraCondensed.csproj", "{8818C65E-3D50-445C-8517-BAB60A33AF5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{690538CC-53C2-4D47-B827-E7313AF55F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{690538CC-53C2-4D47-B827-E7313AF55F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{690538CC-53C2-4D47-B827-E7313AF55F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8818C65E-3D50-445C-8517-BAB60A33AF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8818C65E-3D50-445C-8517-BAB60A33AF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8818C65E-3D50-445C-8517-BAB60A33AF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8818C65E-3D50-445C-8517-BAB60A33AF5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{ECA6381B-7BBE-44DE-9450-13B5806CDBF9} = {5A5844C6-51EB-4366-923C-AC50DE7A300F}
@@ -65,5 +71,6 @@ Global
 		{47CA055F-FA57-4DC5-80DC-4B889EE6BAE5} = {5A5844C6-51EB-4366-923C-AC50DE7A300F}
 		{84ACCBE1-9126-42D2-887A-7CC569F54895} = {5A5844C6-51EB-4366-923C-AC50DE7A300F}
 		{690538CC-53C2-4D47-B827-E7313AF55F9B} = {5A5844C6-51EB-4366-923C-AC50DE7A300F}
+		{8818C65E-3D50-445C-8517-BAB60A33AF5C} = {5A5844C6-51EB-4366-923C-AC50DE7A300F}
 	EndGlobalSection
 EndGlobal
