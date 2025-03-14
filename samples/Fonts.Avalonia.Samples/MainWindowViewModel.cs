@@ -7,13 +7,13 @@ namespace Fonts.Avalonia.Samples;
 public class MainWindowViewModel : ReactiveObject {
     public List<FontInfo> Fonts { get; } = [
         new("Inter", "fonts:Inter#Inter, $Default"),
-        new("CascadiaCode", "fonts:CascadiaCode#CascadiaCode, $Default"),
+        new("CascadiaCode", "fonts:CascadiaCode#Cascadia Code, $Default"),
         new("FiraSansExtraCondensed", "fonts:FiraSansExtraCondensed#Fira Sans Extra Condensed, $Default"),
         new("Iosevka", "fonts:Iosevka#Iosevka, $Default"),
         new("JetbrainsMono", "fonts:JetBrainsMono#JetBrains Mono, $Default"),
         new("Lato", "fonts:Lato#Lato, $Default"),
         new("Oswald", "fonts:Oswald#Oswald, $Default"),
-        new("Roboto Condensed", "fonts:RobotoCondensed"),
+        new("Roboto Condensed", "fonts:RobotoCondensed#Roboto Condensed"),
     ];
 
     private FontInfo _selectedFont;
