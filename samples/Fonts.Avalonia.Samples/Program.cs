@@ -2,13 +2,18 @@
 
 using System;
 
+using Fonts.Avalonia.Asap;
+using Fonts.Avalonia.AsapCondensed;
+using Fonts.Avalonia.AsapSemiCondensed;
 using Fonts.Avalonia.CascadiaCode;
+using Fonts.Avalonia.FiraSansCondensed;
 using Fonts.Avalonia.FiraSansExtraCondensed;
 using Fonts.Avalonia.Iosevka;
 using Fonts.Avalonia.JetBrainsMono;
 using Fonts.Avalonia.Lato;
 using Fonts.Avalonia.Oswald;
 using Fonts.Avalonia.RobotoCondensed;
+using Fonts.Avalonia.SourceSans3;
 
 namespace Fonts.Avalonia.Samples;
 
@@ -23,12 +28,17 @@ class Program {
     public static AppBuilder BuildAvaloniaApp() =>
         AppBuilder.Configure<App>().UsePlatformDetect()
             .WithInterFont()
+            .WithAsapFont()
+            .WithAsapSemiCondensedFont()
+            .WithAsapCondensedFont()
             .WithCascadiaCodeFont()
             .WithFiraSansExtraCondensedFont()
+            .WithFiraSansCondensedFont()
             .WithIosevkaFont()
             .WithJetBrainsMonoFont()
             .WithLatoFont()
             .WithOswaldFont()
             .WithRobotoCondensedFont()
+            .WithSourceSans3Font()
             .LogToTrace();
 }
