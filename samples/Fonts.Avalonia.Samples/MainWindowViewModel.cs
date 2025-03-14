@@ -9,6 +9,7 @@ public class MainWindowViewModel : ReactiveObject {
         new("Inter", "fonts:Inter#Inter, $Default"),
         new("Asap", "fonts:Asap#Asap, $Default"),
         new("Asap Semi Condensed", "fonts:AsapSemiCondensed#Asap SemiCondensed, $Default"),
+        new("Asap Condensed", "fonts:AsapCondensed#Asap Condensed, $Default"),
         new("CascadiaCode", "fonts:CascadiaCode#Cascadia Code, $Default"),
         new("FiraSansCondensed", "fonts:FiraSansCondensed#Fira Sans Condensed, $Default"),
         new("FiraSansExtraCondensed", "fonts:FiraSansExtraCondensed#Fira Sans Extra Condensed, $Default"),

@@ -3,6 +3,7 @@
 using System;
 
 using Fonts.Avalonia.Asap;
+using Fonts.Avalonia.AsapCondensed;
 using Fonts.Avalonia.AsapSemiCondensed;
 using Fonts.Avalonia.CascadiaCode;
 using Fonts.Avalonia.FiraSansCondensed;
@@ -28,6 +29,7 @@ class Program {
             .WithInterFont()
             .WithAsapFont()
             .WithAsapSemiCondensedFont()
+            .WithAsapCondensedFont()
             .WithCascadiaCodeFont()
             .WithFiraSansExtraCondensedFont()
             .WithFiraSansCondensedFont()
