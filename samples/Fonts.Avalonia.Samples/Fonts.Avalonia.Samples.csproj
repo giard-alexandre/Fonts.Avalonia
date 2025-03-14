@@ -36,5 +36,6 @@
       <ProjectReference Include="..\..\src\Fonts.Avalonia.Lato\Fonts.Avalonia.Lato.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.Oswald\Fonts.Avalonia.Oswald.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.RobotoCondensed\Fonts.Avalonia.RobotoCondensed.csproj" />
+      <ProjectReference Include="..\..\src\Fonts.Avalonia.SourceSans3\Fonts.Avalonia.SourceSans3.csproj" />
     </ItemGroup>
 </Project>

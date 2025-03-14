@@ -13,6 +13,7 @@ using Fonts.Avalonia.JetBrainsMono;
 using Fonts.Avalonia.Lato;
 using Fonts.Avalonia.Oswald;
 using Fonts.Avalonia.RobotoCondensed;
+using Fonts.Avalonia.SourceSans3;
 
 namespace Fonts.Avalonia.Samples;
 
@@ -38,5 +39,6 @@ class Program {
             .WithLatoFont()
             .WithOswaldFont()
             .WithRobotoCondensedFont()
+            .WithSourceSans3Font()
             .LogToTrace();
 }

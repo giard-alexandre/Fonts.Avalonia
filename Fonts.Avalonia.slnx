@@ -23,5 +23,6 @@
     <Project Path="src\Fonts.Avalonia.AsapSemiCondensed\Fonts.Avalonia.AsapSemiCondensed.csproj" Type="Classic C#" />
     <Project Path="src\Fonts.Avalonia.Asap\Fonts.Avalonia.Asap.csproj" Type="Classic C#" />
     <Project Path="src\Fonts.Avalonia.FiraSansCondensed\Fonts.Avalonia.FiraSansCondensed.csproj" Type="Classic C#" />
+    <Project Path="src\Fonts.Avalonia.SourceSans3\Fonts.Avalonia.SourceSans3.csproj" Type="Classic C#" />
   </Folder>
 </Solution>

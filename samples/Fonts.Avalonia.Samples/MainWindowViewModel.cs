@@ -18,6 +18,7 @@ public class MainWindowViewModel : ReactiveObject {
         new("Lato", "fonts:Lato#Lato, $Default"),
         new("Oswald", "fonts:Oswald#Oswald, $Default"),
         new("Roboto Condensed", "fonts:RobotoCondensed#Roboto Condensed"),
+        new("SourceSans3", "fonts:SourceSans3#Source Sans 3, $Default"),
     ];
 
     private FontInfo _selectedFont;
