@@ -8,6 +8,7 @@ public class MainWindowViewModel : ReactiveObject {
     public List<FontInfo> Fonts { get; } = [
         new("Inter", "fonts:Inter#Inter, $Default"),
         new("CascadiaCode", "fonts:CascadiaCode#Cascadia Code, $Default"),
+        new("FiraSansCondensed", "fonts:FiraSansCondensed#Fira Sans Condensed, $Default"),
         new("FiraSansExtraCondensed", "fonts:FiraSansExtraCondensed#Fira Sans Extra Condensed, $Default"),
         new("Iosevka", "fonts:Iosevka#Iosevka, $Default"),
         new("JetbrainsMono", "fonts:JetBrainsMono#JetBrains Mono, $Default"),

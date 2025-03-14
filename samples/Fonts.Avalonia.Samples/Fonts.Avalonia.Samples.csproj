@@ -26,6 +26,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\src\Fonts.Avalonia.CascadiaCode\Fonts.Avalonia.CascadiaCode.csproj" />
+      <ProjectReference Include="..\..\src\Fonts.Avalonia.FiraSansCondensed\Fonts.Avalonia.FiraSansCondensed.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.FiraSansExtraCondensed\Fonts.Avalonia.FiraSansExtraCondensed.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.Iosevka\Fonts.Avalonia.Iosevka.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.JetBrainsMono\Fonts.Avalonia.JetBrainsMono.csproj" />

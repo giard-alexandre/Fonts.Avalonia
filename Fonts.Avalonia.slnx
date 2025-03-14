@@ -19,5 +19,6 @@
     <Project Path="src/Fonts.Avalonia.Lato/Fonts.Avalonia.Lato.csproj" Type="Classic C#" />
     <Project Path="src/Fonts.Avalonia.Oswald/Fonts.Avalonia.Oswald.csproj" Type="Classic C#" />
     <Project Path="src/Fonts.Avalonia.RobotoCondensed/Fonts.Avalonia.RobotoCondensed.csproj" Type="Classic C#" />
+    <Project Path="src\Fonts.Avalonia.FiraSansCondensed\Fonts.Avalonia.FiraSansCondensed.csproj" Type="Classic C#" />
   </Folder>
 </Solution>

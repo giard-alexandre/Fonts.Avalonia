@@ -3,6 +3,7 @@
 using System;
 
 using Fonts.Avalonia.CascadiaCode;
+using Fonts.Avalonia.FiraSansCondensed;
 using Fonts.Avalonia.FiraSansExtraCondensed;
 using Fonts.Avalonia.Iosevka;
 using Fonts.Avalonia.JetBrainsMono;
@@ -25,6 +26,7 @@ class Program {
             .WithInterFont()
             .WithCascadiaCodeFont()
             .WithFiraSansExtraCondensedFont()
+            .WithFiraSansCondensedFont()
             .WithIosevkaFont()
             .WithJetBrainsMonoFont()
             .WithLatoFont()
