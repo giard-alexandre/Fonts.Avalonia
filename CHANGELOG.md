@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.12.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.11.0...v0.12.0) (2025-03-14)
+
+
+### 🚀 Features
+
+* add asap ([d908160](https://github.com/giard-alexandre/Fonts.Avalonia/commit/d908160be3e00e4cea82fe9371896dcb21b50cfb))
+* asap condensed ([138b4db](https://github.com/giard-alexandre/Fonts.Avalonia/commit/138b4db8504159e67c1bc085cf12fe3db16f9d93))
+* asap semi condensed ([65675df](https://github.com/giard-alexandre/Fonts.Avalonia/commit/65675dfa88b2dd7921f6656f6d870cb93c82450c))
+* Fira Sans Condensed ([df732b4](https://github.com/giard-alexandre/Fonts.Avalonia/commit/df732b49b0db879a3fee61aa4c915498baae227b))
+* Source Sans 3 ([1feebd5](https://github.com/giard-alexandre/Fonts.Avalonia/commit/1feebd5c23d0ef70178034a717d206895a308bc2))
+
+
+### 🐛 Bug Fixes
+
+* sample ([f15419b](https://github.com/giard-alexandre/Fonts.Avalonia/commit/f15419b2c43da16e9af3772473eadbd6280c5b7b))
+* sample ([b33a797](https://github.com/giard-alexandre/Fonts.Avalonia/commit/b33a7972037913d35616e7b18229d50652e29651))
+
 ## [0.11.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.10.0...v0.11.0) (2025-03-12)
 
 
