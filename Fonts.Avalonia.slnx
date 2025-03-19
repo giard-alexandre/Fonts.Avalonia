@@ -19,10 +19,16 @@
     <Project Path="src/Fonts.Avalonia.Lato/Fonts.Avalonia.Lato.csproj" Type="Classic C#" />
     <Project Path="src/Fonts.Avalonia.Oswald/Fonts.Avalonia.Oswald.csproj" Type="Classic C#" />
     <Project Path="src/Fonts.Avalonia.RobotoCondensed/Fonts.Avalonia.RobotoCondensed.csproj" Type="Classic C#" />
-    <Project Path="src\Fonts.Avalonia.AsapCondensed\Fonts.Avalonia.AsapCondensed.csproj" Type="Classic C#" />
-    <Project Path="src\Fonts.Avalonia.AsapSemiCondensed\Fonts.Avalonia.AsapSemiCondensed.csproj" Type="Classic C#" />
-    <Project Path="src\Fonts.Avalonia.Asap\Fonts.Avalonia.Asap.csproj" Type="Classic C#" />
-    <Project Path="src\Fonts.Avalonia.FiraSansCondensed\Fonts.Avalonia.FiraSansCondensed.csproj" Type="Classic C#" />
-    <Project Path="src\Fonts.Avalonia.SourceSans3\Fonts.Avalonia.SourceSans3.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.AsapCondensed/Fonts.Avalonia.AsapCondensed.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.AsapSemiCondensed/Fonts.Avalonia.AsapSemiCondensed.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.Asap/Fonts.Avalonia.Asap.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.ClearSans/Fonts.Avalonia.ClearSans.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.Figtree/Fonts.Avalonia.Figtree.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.FiraSansCondensed/Fonts.Avalonia.FiraSansCondensed.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.IBMPlexSansCondensed/Fonts.Avalonia.IBMPlexSansCondensed.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.Lexend/Fonts.Avalonia.Lexend.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.Manrope/Fonts.Avalonia.Manrope.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.PtRootUi/Fonts.Avalonia.PtRootUi.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.SourceSans3/Fonts.Avalonia.SourceSans3.csproj" Type="Classic C#" />
   </Folder>
 </Solution>
