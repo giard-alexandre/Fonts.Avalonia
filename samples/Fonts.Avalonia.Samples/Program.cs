@@ -16,7 +16,6 @@ using Fonts.Avalonia.Lexend;
 using Fonts.Avalonia.Manrope;
 using Fonts.Avalonia.Oswald;
 using Fonts.Avalonia.Poppins;
-using Fonts.Avalonia.PtRootUi;
 using Fonts.Avalonia.RobotoCondensed;
 using Fonts.Avalonia.SourceSans3;
 
@@ -50,7 +49,6 @@ class Program {
             .WithIBMPlexSansCondensedFont()
             .WithLexendFont()
             .WithManropeFont()
-            .WithPtRootUiFont()
             .WithPoppinsFont()
             .LogToTrace();
 }

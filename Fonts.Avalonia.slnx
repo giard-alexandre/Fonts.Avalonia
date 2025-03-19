@@ -27,9 +27,8 @@
     <Project Path="src/Fonts.Avalonia.Lexend/Fonts.Avalonia.Lexend.csproj" Type="Classic C#" />
     <Project Path="src/Fonts.Avalonia.Manrope/Fonts.Avalonia.Manrope.csproj" Type="Classic C#" />
     <Project Path="src/Fonts.Avalonia.Oswald/Fonts.Avalonia.Oswald.csproj" Type="Classic C#" />
-    <Project Path="src/Fonts.Avalonia.PtRootUi/Fonts.Avalonia.PtRootUi.csproj" Type="Classic C#" />
+    <Project Path="src/Fonts.Avalonia.Poppins/Fonts.Avalonia.Poppins.csproj" Type="Classic C#" />
     <Project Path="src/Fonts.Avalonia.RobotoCondensed/Fonts.Avalonia.RobotoCondensed.csproj" Type="Classic C#" />
     <Project Path="src/Fonts.Avalonia.SourceSans3/Fonts.Avalonia.SourceSans3.csproj" Type="Classic C#" />
-    <Project Path="src\Fonts.Avalonia.Poppins\Fonts.Avalonia.Poppins.csproj" Type="Classic C#" />
   </Folder>
 </Solution>

@@ -42,7 +42,6 @@
       <ProjectReference Include="..\..\src\Fonts.Avalonia.Manrope\Fonts.Avalonia.Manrope.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.Oswald\Fonts.Avalonia.Oswald.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.Poppins\Fonts.Avalonia.Poppins.csproj" />
-      <ProjectReference Include="..\..\src\Fonts.Avalonia.PtRootUi\Fonts.Avalonia.PtRootUi.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.RobotoCondensed\Fonts.Avalonia.RobotoCondensed.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.SourceSans3\Fonts.Avalonia.SourceSans3.csproj" />
     </ItemGroup>

@@ -19,12 +19,11 @@ public class MainWindowViewModel : ReactiveObject {
         new("Oswald", "fonts:Oswald#Oswald, $Default"),
         new("Roboto Condensed", "fonts:RobotoCondensed#Roboto Condensed"),
         new("SourceSans3", "fonts:SourceSans3#Source Sans 3, $Default"),
-        new("ClearSans", "fonts:ClearSans#ClearSans, $Default"),
+        new("ClearSans", "fonts:ClearSans#Clear Sans, $Default"),
         new("Figtree", "fonts:Figtree#Figtree, $Default"),
         new("IBM Plex Sans Condensed", "fonts:IBMPlexSansCondensed#IBM Plex Sans Condensed, $Default"),
         new("Lexend", "fonts:Lexend#Lexend, $Default"),
         new("Manrope", "fonts:Manrope#Manrope, $Default"),
-        new("PT Root UI", "fonts:PtRootUi#PT Root UI, $Default"),
         new("Poppins", "fonts:Poppins#Poppins, $Default"),
     ];
 
