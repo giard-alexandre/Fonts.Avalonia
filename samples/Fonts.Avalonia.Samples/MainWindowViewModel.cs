@@ -25,6 +25,7 @@ public class MainWindowViewModel : ReactiveObject {
         new("Lexend", "fonts:Lexend#Lexend, $Default"),
         new("Manrope", "fonts:Manrope#Manrope, $Default"),
         new("PT Root UI", "fonts:PtRootUi#PT Root UI, $Default"),
+        new("Poppins", "fonts:Poppins#Poppins, $Default"),
     ];
 
     private FontInfo _selectedFont;

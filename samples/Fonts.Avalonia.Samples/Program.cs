@@ -1,7 +1,5 @@
 ﻿using Avalonia;
 
-using System;
-
 using Fonts.Avalonia.Asap;
 using Fonts.Avalonia.AsapCondensed;
 using Fonts.Avalonia.AsapSemiCondensed;
@@ -17,6 +15,7 @@ using Fonts.Avalonia.Lato;
 using Fonts.Avalonia.Lexend;
 using Fonts.Avalonia.Manrope;
 using Fonts.Avalonia.Oswald;
+using Fonts.Avalonia.Poppins;
 using Fonts.Avalonia.PtRootUi;
 using Fonts.Avalonia.RobotoCondensed;
 using Fonts.Avalonia.SourceSans3;
@@ -52,5 +51,6 @@ class Program {
             .WithLexendFont()
             .WithManropeFont()
             .WithPtRootUiFont()
+            .WithPoppinsFont()
             .LogToTrace();
 }
