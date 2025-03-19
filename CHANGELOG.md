@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.13.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.12.0...v0.13.0) (2025-03-19)
+
+
+### 🚀 Features
+
+* add poppins ([9124cca](https://github.com/giard-alexandre/Fonts.Avalonia/commit/9124cca110e4dbf4b8416ee98b77468301818d52))
+* add so many fonts ([2898928](https://github.com/giard-alexandre/Fonts.Avalonia/commit/2898928569b74dcc732087084040aedcc00ca40c))
+
+
+### 🐛 Bug Fixes
+
+* remove ptrootui ([3a75393](https://github.com/giard-alexandre/Fonts.Avalonia/commit/3a75393d93ea9803de058f7229fe523452c2d158))
+
 ## [0.12.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.11.0...v0.12.0) (2025-03-14)
 
 
