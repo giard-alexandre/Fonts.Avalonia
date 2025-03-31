@@ -8,6 +8,7 @@ using Fonts.Avalonia.ClearSans;
 using Fonts.Avalonia.Figtree;
 using Fonts.Avalonia.FiraSansCondensed;
 using Fonts.Avalonia.FiraSansExtraCondensed;
+using Fonts.Avalonia.Gidole;
 using Fonts.Avalonia.IBMPlexSansCondensed;
 using Fonts.Avalonia.Iosevka;
 using Fonts.Avalonia.JetBrainsMono;
@@ -15,7 +16,9 @@ using Fonts.Avalonia.Lato;
 using Fonts.Avalonia.Lexend;
 using Fonts.Avalonia.Manrope;
 using Fonts.Avalonia.Oswald;
+using Fonts.Avalonia.Overpass;
 using Fonts.Avalonia.Poppins;
+using Fonts.Avalonia.PublicSans;
 using Fonts.Avalonia.RobotoCondensed;
 using Fonts.Avalonia.SourceSans3;
 
@@ -38,10 +41,12 @@ class Program {
             .WithCascadiaCodeFont()
             .WithFiraSansExtraCondensedFont()
             .WithFiraSansCondensedFont()
+            .WithGidoleFont()
             .WithIosevkaFont()
             .WithJetBrainsMonoFont()
             .WithLatoFont()
             .WithOswaldFont()
+            .WithOverpassFont()
             .WithRobotoCondensedFont()
             .WithSourceSans3Font()
             .WithClearSansFont()
@@ -50,5 +55,6 @@ class Program {
             .WithLexendFont()
             .WithManropeFont()
             .WithPoppinsFont()
+            .WithPublicSansFont()
             .LogToTrace();
 }
