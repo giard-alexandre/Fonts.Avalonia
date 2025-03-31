@@ -7,15 +7,18 @@ namespace Fonts.Avalonia.Samples;
 public class MainWindowViewModel : ReactiveObject {
     public List<FontInfo> Fonts { get; } = [
         new("Inter", "fonts:Inter#Inter, $Default"),
+        new("Default", "$Default"),
         new("Asap", "fonts:Asap#Asap, $Default"),
         new("Asap Semi Condensed", "fonts:AsapSemiCondensed#Asap SemiCondensed, $Default"),
         new("Asap Condensed", "fonts:AsapCondensed#Asap Condensed, $Default"),
         new("CascadiaCode", "fonts:CascadiaCode#Cascadia Code, $Default"),
         new("FiraSansCondensed", "fonts:FiraSansCondensed#Fira Sans Condensed, $Default"),
         new("FiraSansExtraCondensed", "fonts:FiraSansExtraCondensed#Fira Sans Extra Condensed, $Default"),
+        new("Gidole", "fonts:Gidole#Gidole, $Default"),
         new("Iosevka", "fonts:Iosevka#Iosevka, $Default"),
         new("JetbrainsMono", "fonts:JetBrainsMono#JetBrains Mono, $Default"),
         new("Lato", "fonts:Lato#Lato, $Default"),
+        new("Overpass", "fonts:Overpass#Overpass, $Default"),
         new("Oswald", "fonts:Oswald#Oswald, $Default"),
         new("Roboto Condensed", "fonts:RobotoCondensed#Roboto Condensed"),
         new("SourceSans3", "fonts:SourceSans3#Source Sans 3, $Default"),
@@ -25,6 +28,7 @@ public class MainWindowViewModel : ReactiveObject {
         new("Lexend", "fonts:Lexend#Lexend, $Default"),
         new("Manrope", "fonts:Manrope#Manrope, $Default"),
         new("Poppins", "fonts:Poppins#Poppins, $Default"),
+        new("PublicSans", "fonts:PublicSans#Public Sans, $Default"),
     ];
 
     private FontInfo _selectedFont;
