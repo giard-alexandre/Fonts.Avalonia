@@ -28,7 +28,6 @@
       <ProjectReference Include="..\..\src\Fonts.Avalonia.AsapCondensed\Fonts.Avalonia.AsapCondensed.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.AsapSemiCondensed\Fonts.Avalonia.AsapSemiCondensed.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.Asap\Fonts.Avalonia.Asap.csproj" />
-      <ProjectReference Include="..\..\src\Fonts.Avalonia.Axel\Fonts.Avalonia.Axel.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.CascadiaCode\Fonts.Avalonia.CascadiaCode.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.ClearSans\Fonts.Avalonia.ClearSans.csproj" />
       <ProjectReference Include="..\..\src\Fonts.Avalonia.Figtree\Fonts.Avalonia.Figtree.csproj" />

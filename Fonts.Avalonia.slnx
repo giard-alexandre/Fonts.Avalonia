@@ -30,5 +30,8 @@
     <Project Path="src/Fonts.Avalonia.Poppins/Fonts.Avalonia.Poppins.csproj" Type="Classic C#" />
     <Project Path="src/Fonts.Avalonia.RobotoCondensed/Fonts.Avalonia.RobotoCondensed.csproj" Type="Classic C#" />
     <Project Path="src/Fonts.Avalonia.SourceSans3/Fonts.Avalonia.SourceSans3.csproj" Type="Classic C#" />
+    <Project Path="src\Fonts.Avalonia.Gidole\Fonts.Avalonia.Gidole.csproj" Type="Classic C#" />
+    <Project Path="src\Fonts.Avalonia.Overpass\Fonts.Avalonia.Overpass.csproj" Type="Classic C#" />
+    <Project Path="src\Fonts.Avalonia.PublicSans\Fonts.Avalonia.PublicSans.csproj" Type="Classic C#" />
   </Folder>
 </Solution>
