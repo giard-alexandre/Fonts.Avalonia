@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.14.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.13.0...v0.14.0) (2025-03-31)
+
+
+### 🚀 Features
+
+* add new fonts to sample ([7713afd](https://github.com/giard-alexandre/Fonts.Avalonia/commit/7713afd374e0d5f165c9f1f19cd3e2c4a311d776))
+* add overpass publicsans and gidole ([50cc844](https://github.com/giard-alexandre/Fonts.Avalonia/commit/50cc8449e06aac271cfb779bddbcdbaa1d707808))
+
 ## [0.13.0](https://github.com/giard-alexandre/Fonts.Avalonia/compare/v0.12.0...v0.13.0) (2025-03-19)
 
 
